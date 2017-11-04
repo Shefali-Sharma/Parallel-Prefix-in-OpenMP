@@ -34,7 +34,7 @@ void omp_scan(int n, const T* in, T* out, Op op) {
             temp_sum[0] = in[0];
         }
         
-        int sum = in[0]; // = in[thread_num * chunk_size];
+        int sum = in[0]; 
         //        printf("Sum = in[ %d ] = %d \n", thread_num * chunk_size, sum);
         
         //        out[0] = in[0];
